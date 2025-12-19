@@ -1,0 +1,157 @@
+@import "../../scss/vars";
+.que {
+  background-image: url("../../assets/footer.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center 70px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: $white;
+  object-fit: cover;
+  width: 100%;
+  height: 332px;
+  .text1 {
+    margin: 0;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 44px;
+    letter-spacing: 5px;
+  }
+  .text2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    p {
+      font-size: 18px;
+      font-weight: 700;
+      line-height: 30px;
+      letter-spacing: 1px;
+    }
+  }
+  .form {
+    background-color: rgba(72, 71, 71, 0.6);
+    padding: 25px 40px;
+    gap: 20px;
+    border-radius: 3px;
+    border: 2px solid $gray;
+    button {
+      height: 45px;
+      color: $white;
+      background-color: $black2;
+      background-repeat: no-repeat;
+      border: none;
+      cursor: pointer;
+      overflow: hidden;
+      outline: none;
+      padding: 5px 30px;
+      font-size: 12px;
+      font-weight: 700;
+      line-height: 30px;
+      letter-spacing: 2px;
+      border-radius: 3px;
+      &:hover{
+        background-color: #4d4949;
+        box-shadow: 1px 1px 1px;
+      }
+    }
+
+  }
+}
+.footer2 {
+  background-color: #14141b;
+  color: white;
+  padding: 50px 0;
+  div:nth-child(1) {
+    gap: 95px;
+  }
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  .gap1 {
+    gap: 90px;
+  }
+
+  .ulBlock {
+    margin: 0;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 44px;
+  }
+  .min_block {
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 44px;
+    margin: 0;
+  }
+  .span {
+    display: block;
+    height: 1px;
+    width: 100%;
+    background-color: $gray;
+    margin-top: 10px;
+  }
+  .ulBlock_2 {
+    margin-bottom: 7px;
+
+  }
+  .liItem {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 27px;
+    a{
+      text-decoration: none;
+      color: #8e8e8e;
+      &:hover{
+        color: $white;
+      }
+    }
+  }
+  .min_height{
+    min-height: 267px;
+    .gap2{
+      display: flex;
+      gap:10px;
+    }
+    p{
+      max-width: 316px;
+    }
+  }
+  .gap2{
+    display: flex;
+    gap:10px;
+  }
+  button {
+    height: 42px;
+    color: $white;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+    padding: 5px 10px;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 1px;
+  }
+  .button__block {
+    border: 1px solid $gray;
+    border-radius: 5px;
+    max-width: 200px;
+    &:hover{
+      background-color: $gray;
+      outline: 2px solid $black2;
+      box-shadow: 10px 10px 10px ;
+      .height{
+        color: $black2;
+
+      }
+    }
+  }
+
+}

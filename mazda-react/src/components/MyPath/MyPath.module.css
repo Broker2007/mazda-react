@@ -1,0 +1,19 @@
+.ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 23px;
+  color: white;
+  padding: 0;
+}
+.ul li:nth-child(3) {
+  color: #c5c5c5;
+}
+.ul li:nth-child(5) {
+  color: #656464;
+}
+
+/*# sourceMappingURL=MyPath.module.css.map */

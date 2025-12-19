@@ -1,0 +1,8 @@
+div .block {
+  min-height: 100px;
+  max-height: 120px;
+  max-width: 210px;
+  object-fit: cover;
+}
+
+/*# sourceMappingURL=CategoriesMaz.module.css.map */

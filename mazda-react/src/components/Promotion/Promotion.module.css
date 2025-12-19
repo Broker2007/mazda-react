@@ -1,0 +1,68 @@
+@charset "UTF-8";
+.promWidth {
+  background-image: url("../../assets/from2.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-attachment: fixed;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 110px;
+  margin-top: 75px;
+  margin-bottom: 75px;
+  position: relative;
+}
+.promWidth div:nth-child(1) {
+  position: absolute;
+  height: 100%;
+  width: 229px;
+  left: 0;
+  top: 0;
+  border-right: 34px solid transparent;
+  border-top: 110px solid #AD0E29;
+}
+.promWidth div:nth-child(1):after {
+  display: block;
+  content: "Aкция!";
+  color: white;
+  position: absolute;
+  top: -85px;
+  right: 20px;
+  font-size: 55px;
+  font-weight: 700;
+  line-height: 53px;
+}
+.promWidth div:nth-child(2) {
+  max-width: 650px;
+  color: #fff;
+  font-size: 23px;
+  font-weight: 700;
+  line-height: 33px;
+}
+.promWidth div:nth-child(3) {
+  position: absolute;
+  height: 100%;
+  width: 229px;
+  right: 0;
+  top: -110px;
+  border-left: 34px solid transparent;
+  border-bottom: 110px solid #050505;
+}
+.promWidth div:nth-child(3):after {
+  display: block;
+  width: 180px;
+  content: "Подробности у наших специалистов!";
+  color: white;
+  position: absolute;
+  top: 130px;
+  right: 20px;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 21px;
+}
+
+/*# sourceMappingURL=Promotion.module.css.map */
