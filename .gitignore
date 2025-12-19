@@ -1,0 +1,92 @@
+# Зависимости
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+
+# Сборка и компиляция
+build/
+dist/
+*.tsbuildinfo
+
+# Временные файлы
+*.log
+*.tmp
+*.temp
+.DS_Store
+Thumbs.db
+
+# IDE и редакторы
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.settings/
+
+# Большие медиа файлы (чтобы избежать проблем с размером)
+# Разкомментируйте, если не хотите загружать большие видео
+# *.mp4
+# *.mov
+# *.avi
+# *.mkv
+
+# Большие GIF файлы (более 10MB)
+# Если нужно исключить все большие GIF, раскомментируйте:
+# demo/*.gif
+
+# Но оставляем маленькие GIF для демонстрации
+!demo/bandicam*.gif
+
+# Окружение и переменные
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Кэш
+.cache/
+.parcel-cache/
+.npm/
+.eslintcache
+
+# Тестирование
+coverage/
+.nyc_output/
+
+# MongoDB (если используется локально)
+data/
+*.db
+
+# Скомпилированные CSS файлы (если используете SCSS/SASS)
+*.css.map
+
+# Опционально: исключить скомпилированные CSS (если они генерируются автоматически)
+# Раскомментируйте, если CSS генерируется автоматически:
+# *.css
+# !src/**/*.css
+
+# Временные файлы проекта
+*.bak
+*.backup
+*~
+
+# Файлы операционной системы
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Desktop.ini
+
+# Документация (опционально)
+# Раскомментируйте, если не хотите коммитить инструкции:
+# CONVERT_TO_GIF.md
+# FIX_GIT_LARGE_FILE.md
+
